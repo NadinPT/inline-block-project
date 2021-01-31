@@ -1,130 +1,208 @@
-body {
-    font-family: Roboto;
-}
-
-.block1 {
-    background: #EEEFF1;
-    height: 700px;
-}
-
-.textBlockAboutMe {
-    background: #F9F9F9;
-    height: 350px;
-}
-
-.block3 {
-    background: #34547A;
-    height: 250px;
-}
-
-.blockWithManFoto {
-    background: #F9F9F9;
-    height: 700px;
-}
-
-.block5 {
-    background: #EEEFF1;
-    height: 1004px;
-}
-
-.blockWith8Images {
-    background: #EEEFF1;
-}
-
-.microsoftLogoblock {
-    background: #F9F9F9;
-    height: 250px;
-}
-
-.block8 {
-    background: #EEEFF1;
-    height: 762px;
-}
-
-.block9 {
-    background: #34547A;
-    height: 151px;
-}
-
-.image {
-    width: 24.6%;
-}
-
-.imageMicrosoft {
-    width: 13.3%;
-    padding: 15px;
-}
-
-.microsoftLogobBlockLineImages {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
-.loremIpsum {
-    text-align: center;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    width: 33%;
-    justify-content: center;
-}
-
-.textBlockAboutMe {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.loremIpsonText {
-    color: #727272;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0em;
-    text-align: center;
-}
-
-.imageMan {
-    width: 28%;
-    padding-left: 3.8%;
-}
-
-.blockWithManFoto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
-.line {
-    width: 445px;
-    height: 4px;
-    left: 386px;
-    top: 1628px;
-    background: #C4C4C4;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-
-.lineBlue {
-    width: 349.36px;
-    height: 4px;
-    left: 386px;
-    top: 1628.24px;
-    background: #34547A;
-}
-
-.blockWithManFoto {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.blockWith6TexLines {
-    padding-right: 3.8%;
-}
+    body {
+        font-family: Roboto;
+    }
+    
+    .block1 {
+        background: #EEEFF1;
+        height: 700px;
+    }
+    
+    .textBlockAboutMe {
+        background: #F9F9F9;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .block40Projects {
+        background: #34547A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 0;
+    }
+    
+    .blockWithManFoto {
+        background: #F9F9F9;
+        height: 700px;
+    }
+    
+    .blockWithVideo {
+        background: #EEEFF1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 100px;
+    }
+    
+    .blockWith8Images {
+        background: #EEEFF1;
+    }
+    
+    .microsoftLogoblock {
+        background: #F9F9F9;
+        height: 250px;
+    }
+    
+    .block8 {
+        background: #EEEFF1;
+        height: 762px;
+    }
+    
+    .block9 {
+        background: #34547A;
+        height: 151px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .image {
+        width: 24.6%;
+    }
+    
+    .imageMicrosoft {
+        width: 13.3%;
+        padding: 15px;
+    }
+    
+    .microsoftLogobBlockLineImages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .loremIpsum {
+        text-align: center;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 33%;
+        justify-content: center;
+    }
+    
+    .loremIpsonText {
+        color: #727272;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    
+    .imageMan {
+        width: 28%;
+        padding-left: 3.8%;
+    }
+    
+    .blockWithManFoto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .line {
+        width: 445px;
+        height: 4px;
+        left: 386px;
+        top: 1628px;
+        background: #C4C4C4;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .lineBlue {
+        width: 349.36px;
+        height: 4px;
+        left: 386px;
+        top: 1628.24px;
+        background: #34547A;
+    }
+    
+    .blockWithManFoto {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .blockWith6TexLines {
+        padding-right: 3.8%;
+    }
+    
+    .image40Projects {
+        width: 7.3%;
+        padding: 0 1.275%;
+    }
+    
+    .lineImages {
+        display: flex;
+    }
+    
+    .imageFirst {
+        background: url('images/Rectangle 7.5.png');
+        width: 24.6%;
+    }
+    
+    .eye {
+        background: linear-gradient(0deg, rgba(52, 84, 122, 0.8), rgba(52, 84, 122, 0.8)), url(images/view.png);
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .textVideo {
+        text-align: center;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 33%;
+        justify-content: center
+    }
+    
+    .textVideoBlock {
+        color: #727272;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    
+    .botton {
+        background: url(images/video.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 51%;
+        background-size: contain;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+    }
+    
+    .nameBlockIvan {
+        font-family: Roboto;
+        font-style: normal;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .threeLogoVk {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .imageVk {
+        margin: 10px;
+    }
